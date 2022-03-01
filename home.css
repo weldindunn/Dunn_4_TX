@@ -7,7 +7,6 @@ body {
     width: 100%;
     top: 0;
     margin: auto;
-    display: inline;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -25,13 +24,15 @@ body {
 }
 
 ul {
-    text-align: right;
-    list-style-type: none;
+    list-style-type: none; /*Gets rid of underline*/
     background-color: white;
+    padding: 0px;
+    margin: 0px;
 }
 
 li {
     display: inline;
+    
 }
 
 a {
