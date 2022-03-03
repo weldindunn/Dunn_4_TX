@@ -12,16 +12,14 @@ html {
 }
 
 body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #ffff;
 }
-
-
 
 .navigationBar {
     width: 100%;
     height: 120px;
     top: 0;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: block!important;
     float: right;
 
@@ -33,59 +31,36 @@ body {
 
 
 
-.intro {
-    text-align: center;
-    padding: 0px;
-    color:rgb(34, 18, 185)
-}
-
-.intro-inv {
+.pageContent {
     background-color: #ffff;
-    transform: translate3d(400px, -450px, 0px);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: inline-block;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-.intro-text {
-    font-size: 24px;
-}
-
-.intro-input {
-    text-align: left;
-    display: block;
-}
-
-.intro-input-column {
-    float: left;
-    width: 50%;
-}
-
-
-
-.video-intro {
-    text-align: center;
-    background-color: #75a5ff;
-    padding: 5px;
 }
 
 .column-left {
     float: left;
-    width: 75%;
-    text-align: center;
+    width: 57%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 0;
+}
+
+.column-left p {
+    font-size: 26px;
+}
+
+.column-left h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
 .column-right {
     float: left;
-    width: 25%;
-    text-align: center;
+    width: 34%;
+    margin-right: 3%;
+    margin-top: 40px;
+    padding: 0;
 }
 
-.pageContent {
-    background-color: #ffff;
-    margin: 5px;
-}
+
 
 .pageFooter {
     width: 100%;
