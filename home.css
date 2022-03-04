@@ -93,7 +93,8 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0;
     background-color: #ffff;
-    color: #919191
+    color: #919191;
+    margin-bottom: 20px;
 }
 
 li {
