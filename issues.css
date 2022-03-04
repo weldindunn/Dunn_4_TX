@@ -52,16 +52,17 @@ body {
     margin-bottom: 10px;
 }
 
+.para {
+    margin-bottom: 40px;
+}
+
 .column-right {
     float: left;
     width: 34%;
     margin-right: 3%;
-    margin-top: 40px;
+    margin-top: 60px;
+    margin-bottom: 16%;
     padding: 0;
-}
-
-.para {
-    margin-bottom: 40px;
 }
 
 

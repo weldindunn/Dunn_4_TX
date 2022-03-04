@@ -36,13 +36,13 @@ body {
 .intro {
     text-align: center;
     padding: 0px;
-    color:rgb(34, 18, 185)
+    color:rgb(34, 18, 185);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .intro-inv {
     background-color: #ffff;
-    transform: translate3d(400px, -450px, 0px);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translate3d(650px, -450px, 0px);
     display: inline-block;
     padding: 10px;
     margin-bottom: 10px;
@@ -62,23 +62,64 @@ body {
     width: 50%;
 }
 
+.welcome {
+    background-color: #ffff;
+    text-align: center;
+    font-size: 40px;
+    display: inline-block;
+    transform: translate3d(-235px, -25px, 0px);
+}
+
+.intro p {
+    color: black;
+}
+
+.intro a {
+    font-size: 40px;
+    color: rgb(34, 18, 185);
+}
+
+.intro a:hover{text-decoration: underline; color:rgb(31, 18, 139)}
+
+
 
 
 .video-intro {
     text-align: center;
-    background-color: #75a5ff;
+    background-color: rgb(138, 125, 255);
     padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffff;
+}
+
+.video-intro h1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 60px;
+}
+
+.video-intro h2 {
+    font-size: 40px;
 }
 
 .column-left {
     float: left;
-    width: 75%;
+    width: 64%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 30px;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.column-left p {
+    font-size: 30px;
+    margin-bottom: 30px;
 }
 
 .column-right {
     float: left;
-    width: 25%;
+    width: 30%;
     text-align: center;
 }
 
@@ -86,6 +127,8 @@ body {
     background-color: #ffff;
     margin: 5px;
 }
+
+
 
 .pageFooter {
     width: 100%;
@@ -170,21 +213,6 @@ a:hover {color: blueviolet;}
 }
 
 
-/*More About Weldin button*/
-.mButton {
-    background-color: rgb(34, 18, 185);
-    padding: 8px;
-    color: #ffff;
-    display: inline;
-}
-
-.mButton a {
-    color: #ffff;
-}
-
-.mButton:hover {
-    background-color: rgb(31, 18, 139);
-}
 
 /*Join Button in intro*/
 .intro-Button {
@@ -201,4 +229,24 @@ a:hover {color: blueviolet;}
 
 .intro-Button:hover {
     background-color: rgb(34, 18, 185);
+}
+
+
+
+/*More About Weldin button*/
+.mButton {
+    background-color: rgb(34, 18, 185);
+    color: #ffff;
+    display: inline-block;
+    padding: 10px;
+}
+
+.mButton a {
+    color: #ffff;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.mButton:hover {
+    background-color: rgb(31, 18, 139);
 }
